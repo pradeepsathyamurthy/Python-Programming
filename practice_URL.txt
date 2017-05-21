@@ -1,1 +1,4 @@
 http://stackoverflow.com/questions/3217222/beginner-python-practice
+
+http://bigdata-madesimple.com/step-by-step-approach-to-perform-data-analysis-using-python/
+
