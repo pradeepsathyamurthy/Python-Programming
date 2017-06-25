@@ -1,0 +1,31 @@
+Basically any new packages in Python is installed through PIP command
+
+To use PIP, we need to expose this PIP shell to our Python repository
+
+This we need to do it from a windows command prompt, by executing below cmd
+
+---->>>>  python -m pip install -U pip setuptools
+
+Then t install any specific package use below command in same cmd prompt:
+Here, I am trying to install pydotplus package to my python repository
+
+---->>>>  pip install pydotplus
+
+---- End - This install new Python package to your Python - Use it using import statement ----
+
+Sample Execution in Windows cmd:
+=================================
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\prade>pip install pydotplus
+Collecting pydotplus
+  Downloading pydotplus-2.0.2.tar.gz (278kB)
+    100% |################################| 286kB 409kB/s
+Requirement already satisfied: pyparsing>=2.0.1 in c:\anaconda3\lib\site-packages (from pydotplus)
+Building wheels for collected packages: pydotplus
+  Running setup.py bdist_wheel for pydotplus ... done
+  Stored in directory: C:\Users\prade\AppData\Local\pip\Cache\wheels\43\31\48\e1d60511537b50a8ec28b130566d2fbbe4ac302b0def4baa48
+Successfully built pydotplus
+Installing collected packages: pydotplus
+Successfully installed pydotplus-2.0.2
