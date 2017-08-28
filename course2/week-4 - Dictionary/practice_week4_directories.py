@@ -116,7 +116,7 @@ import os
 import string
 string.punctuation
 #help(str.translate)
-os.chdir("D:\Courses\Coursera\Python\course2\week-4")
+os.chdir("D:\Courses\Coursera\Python-Programming\course2\week-4 - Dictionary")
 filename='romeo-full.txt'
 file_handle=open(filename,'r')
 counts=dict()
@@ -156,15 +156,6 @@ print(counts)
 word='brontosaurus'
 counts=dict()
 for key in word:
-    if key in counts:
-        counts[key] = counts[key] + 1
-    else:
-        counts[key] = 1
-print(counts)
-
-word='brontosaurus'
-counts=dict()
-for key in word:
     counts[key]=counts.get(key,0)+1
 print(counts)
 
@@ -176,7 +167,7 @@ they appear in the file.
 After the dictionary is produced, the program reads through the dictionary using a maximum loop to find the most prolific committer
 """
 import os
-os.chdir("D:\Courses\Coursera\Python\course2\week-4")
+os.chdir("D:\Courses\Coursera\Python-Programming\course2\week-4 - Dictionary")
 file_name="mbox-short.txt"
 mail_dict=dict()
 max_profile=0
