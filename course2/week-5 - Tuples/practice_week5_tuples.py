@@ -76,7 +76,7 @@ for key, val in d.items():
 
 # finding the most common word
 import os
-os.chdir("D:\Courses\Coursera\Python\course2\week-5")
+os.chdir("D:\Courses\Coursera\Python-Programming\course2\week-5 - Tuples")
 import string
 fhand = open('romeo-full.txt')
 counts = dict()
@@ -145,7 +145,7 @@ Once you have accumulated the counts for each hour, print out the counts, sorted
 19 1
 """
 import os
-os.chdir('D:\Courses\Coursera\Python\course2\week-5')
+os.chdir('D:\Courses\Coursera\Python-Programming\course2\week-5 - Tuples')
 #name = input("Enter file:")
 #if len(name) < 1 : name = "mbox-short.txt"
 name="mbox-short.txt"
