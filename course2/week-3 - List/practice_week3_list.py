@@ -38,7 +38,7 @@ print("Average::::",average)
 'You can download the sample data at http://www.pythonlearn.com/code/romeo.txt'
 """
 import os
-os.chdir("D:\Courses\Coursera\Python\course2\week-3")
+os.chdir("D:\Courses\Coursera\Python-Programming\course2\week-3 - List")
 data_romeo = open("romeo.txt")
 #print(data_romeo) # Prints the file handler
 lines_list=list()
